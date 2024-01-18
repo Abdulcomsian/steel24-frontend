@@ -1,0 +1,515 @@
+@media (min-width: 786px) {
+  .toggle_button {
+    display: none;
+  }
+}
+
+@media (max-width: 950px) {
+  .sidebar {
+    width: 25%;
+  }
+  // .topbar-wrapper {
+  //   width: 75%;
+  // }
+  // .main-panel > .main-content {
+  //   width: 75%;
+  // }
+}
+@media (min-width: 786px) {
+  .navbar > .container,
+  .navbar > .container-fluid {
+    justify-content: flex-end;
+  }
+}
+@media (max-width: 1200px) {
+  .sidebar {
+    width: 20%;
+  }
+  // .topbar-wrapper {
+  //   width: 80%;
+  // }
+  // .main-panel > .main-content {
+  //   width: 80%;
+  // }
+}
+
+@media (max-width: 786px) {
+  .over_products_section .over_products {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .navbar > .container,
+  .navbar > .container-fluid {
+    justify-content: space-between;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    display: none;
+    opacity: 0;
+  }
+
+  .overlay-visible {
+    display: block;
+    opacity: 1;
+  }
+  .sidebar-open {
+    display: flex !important;
+    transform: translateZ(0);
+    transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    justify-content: center;
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 50%;
+    display: none;
+    z-index: 8;
+    // box-shadow: 3px 0 20px 0 rgba(0, 0, 0, 0.51);
+  }
+  // .topbar-wrapper {
+  //   width: 100%;
+  // }
+  // .main-panel > .main-content {
+  //   width: 100%;
+  // }
+  .div-right {
+    display: block !important;
+  }
+}
+@media (max-width: 768px) and (min-width: 568px) {
+  .nav_bar {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    justify-content: space-between;
+  }
+  .main_Heading h1 {
+    font-family: "Fira Sans";
+    font-weight: 600 !important;
+    font-size: 35px !important;
+    font-style: normal;
+    text-align: center;
+    line-height: 3rem !important;
+  }
+  .main_Heading h3 {
+    font-family: "Fira Sans";
+    font-weight: 400 !important;
+    line-height: 30.6px;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  .welcome-area {
+    width: 100% !important;
+    height: 60vh !important;
+  }
+
+  .welcome-area .header-text {
+    top: 33% !important;
+  }
+  .welcome-area .header-text h1 {
+    margin-bottom: 5px !important;
+  }
+  .main_nav_bar {
+    position: relative !important;
+    top: 1% !important;
+  }
+  .supplier {
+    height: 140px !important;
+  }
+  .text_Image {
+    height: 300px;
+    margin-bottom: 4%;
+  }
+  .slider_section {
+    padding: 24px 0px 25px 0px !important;
+  }
+  .status_bar {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50.64px;
+  }
+  .status_bar_row {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25.64px;
+  }
+  .status_bar_row img {
+    margin-right: 5px;
+    height: 28px;
+    width: auto;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+  .card_image {
+    height: 190px;
+    width: 190px;
+  }
+
+  .slider_text h5 {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    line-height: 20px !important;
+    letter-spacing: 0em !important;
+    text-align: center !important;
+    margin-bottom: 10px !important;
+  }
+  .slider_text h6 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+  }
+  .slider_text {
+    height: 260px !important;
+    width: 95%;
+    margin: auto;
+  }
+  .swiper-pagination {
+    bottom: -15px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav_bar {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 768px) {
+  .card_section {
+    li {
+      flex-direction: column;
+    }
+
+    .description-section {
+      flex-direction: column;
+      width: auto;
+
+      .Lot-Details {
+        border-right: none;
+      }
+    }
+    .Image-secion {
+      width: 60%;
+    }
+  }
+}
+
+@media (max-width: 567px) {
+  .MenubarMobile {
+    display: block;
+    width: 100%;
+    button {
+      width: 100%;
+      color: white !important;
+      background-color: black !important;
+    }
+    ul {
+      width: 100%;
+    }
+  }
+  .MenubarDestop {
+    display: none;
+  }
+  .nav_bar {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    justify-content: space-between;
+  }
+  .main_Heading h1 {
+    font-family: "Fira Sans";
+    font-weight: 500 !important;
+    font-size: 25px !important;
+    font-style: normal;
+    text-align: center;
+    line-height: 2rem !important;
+  }
+  .main_Heading h3 {
+    font-family: "Fira Sans";
+    font-weight: 300 !important;
+    line-height: 24.6px;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .welcome-area {
+    width: 100% !important;
+    height: 60vh !important;
+  }
+
+  .welcome-area .header-text {
+    top: 33% !important;
+  }
+  .welcome-area .header-text h1 {
+    margin-bottom: 5px !important;
+  }
+  .main_nav_bar {
+    position: relative !important;
+    top: 1% !important;
+  }
+  .supplier {
+    height: 140px !important;
+  }
+
+  .over_products {
+    margin: 0;
+  }
+  .over_products h1 {
+    font-size: 30px;
+    line-height: 3rem;
+  }
+  .over_products h3 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 4%;
+  }
+  .text_Image {
+    height: 300px;
+    margin-bottom: 5%;
+  }
+  .over_products_section {
+    padding-bottom: 0;
+  }
+  .slider_section {
+    padding: 24px 0px 25px 0px !important;
+  }
+  .slider_section h1 {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30.2px;
+    margin-bottom: 5%;
+  }
+  .status_bar {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50.64px;
+  }
+  .status_bar_row {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.64px;
+  }
+  .status_bar_row img {
+    margin-right: 5px;
+    height: 25px;
+    width: auto;
+  }
+  .mobile_m {
+    margin-bottom: 2rem;
+  }
+  .mobile_hide {
+    display: none;
+  }
+  .slider_text {
+    margin: auto;
+    width: 90%;
+    height: 250px !important;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+  .swiper_pagination {
+    border-radius: 16px;
+    --swiper-pagination-bullet-size: 13px;
+    bottom: -15px !important;
+  }
+  .slider_text h5 {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    line-height: 15px !important;
+    letter-spacing: 0em !important;
+    text-align: center !important;
+    margin-bottom: 0 !important;
+  }
+  .slider_text h6 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+  }
+  .swiper-pagination {
+    position: inherit !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    margin-bottom: 20px;
+    bottom: -15px !important;
+  }
+  .live_Lots h1 {
+    font-size: 18px !important;
+    font-weight: 400;
+    line-height: 25px !important;
+  }
+  .live_Lots {
+    margin-bottom: 20px;
+  }
+  .live_Lots .textSpan span {
+    font-size: 18px !important;
+    font-weight: 300;
+    line-height: 10px !important;
+  }
+  .live_Lots p {
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 14px;
+    margin-top: 0.5rem;
+  }
+  .live_Lots h3 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    margin-top: 0.5rem;
+  }
+  .tag_text_STATUS {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0px;
+    padding: 3px;
+    margin-right: 0px;
+    white-space: break-spaces;
+  }
+  .live_Lots_title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    justify-content: space-around;
+  }
+  .lots_details_mobile {
+    display: flex;
+    // justify-content: center;
+    // flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .tag_text {
+    white-space: break-spaces;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+  }
+  .image_size {
+    img {
+      width: 100px;
+      width: 100px;
+    }
+  }
+  .card-body {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .mobileHide {
+    display: none;
+  }
+
+  .catagroy h4 {
+    font-family: Nunito Sans !important;
+    font-size: 20px !important;
+    font-weight: 600;
+  }
+
+  .card_section {
+    .Image-secion {
+      width: auto;
+      .ant-image {
+        width: 100%;
+      }
+      img {
+        width: 100% !important;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+
+  .Favourite_btn {
+    padding: 0.25rem 1rem;
+    line-height: 1;
+  }
+  .maincard_header {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+  .live_LotsDetails_header {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+  }
+  .dashboard_tag_text {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+  }
+
+  .card {
+    .Lot-Bottom-section {
+      .detail-section {
+        display: flex;
+        align-items: center;
+        // margin-right: 2%;
+
+        svg {
+          color: black;
+          height: 20px !important;
+          width: 20px !important;
+        }
+
+        h3 {
+          font-size: 16px;
+          font-weight: 600;
+        }
+        p {
+          font-size: 18px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  .card {
+    .BitNowSection {
+      padding: 15px;
+      p {
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 20px;
+      }
+      .BidNowBtn {
+        gap: 6px;
+        font-size: 16px;
+        padding: 8px 20px 8px 20px;
+        margin-top: 8px;
+      }
+    }
+  }
+
+  .catagroy {
+    .select-section {
+      width: 100%;
+    }
+  }
+
+  .Favourite_section {
+    display: none;
+  }
+  .lot_details_Name {
+    font-size: 1.1rem;
+  }
+  .search_filter {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 991px) {
+  .desktopHide {
+    display: none;
+  }
+}

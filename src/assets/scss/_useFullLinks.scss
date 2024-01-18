@@ -1,0 +1,72 @@
+.main_title,
+.main_title h3 {
+  font-family: "Fira Sans";
+  font-weight: 400 !important;
+  line-height: 33.6px;
+  text-align: center;
+}
+
+.headings h5 {
+  font-family: "Fira Sans";
+  font-weight: 500;
+  font-size: 25px !important;
+  font-style: normal;
+  text-align: start;
+  line-height: 40px;
+  color: black;
+  margin-bottom: 1%;
+}
+
+.headings {
+  li {
+    list-style-position: inside;
+    text-indent: -1.5rem;
+    padding-left: 1rem;
+  }
+  li::before {
+    content: "\2B9A";
+    padding-right: 0.5em;
+    border: none !important;
+    color: black;
+    font-weight: bolder !important;
+  }
+  p {
+    text-indent: 5%;
+   font-family: Nunito Sans ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+}
+
+.headings h6 {
+  font-family: "Fira Sans";
+  font-weight: 500;
+  font-size: 20px !important;
+  font-style: normal;
+  text-align: start;
+  line-height: 40px;
+  color: black;
+}
+
+.Policy-section{
+  margin-top: 5%;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+
+  p{
+    text-indent: 0%;
+  }
+}
+
+.useFull-Links{
+  ul{
+    li{
+      display: flex;
+      align-items: center;
+    }
+  }
+}

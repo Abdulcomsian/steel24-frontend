@@ -1,0 +1,32 @@
+.card-header {
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.fade.modal.show {
+  display: block;
+  transition: transform 0.3s ease-out;
+  transform: translate(0, -50px);
+}
+
+.fade.modal {
+  transition: transform 0.3s ease-out;
+  transform: translate(0, -50px);
+}
+
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+/* ::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+} */
+
+ul,
+ol {
+  /* list-style-type: none; */
+}
+
+li {
+  /* border-bottom: 1px solid; */
+}

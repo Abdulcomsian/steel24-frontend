@@ -1,0 +1,165 @@
+.popup_LotsDetails_header {
+  /* width: 100%; */
+  background: #fbf9d3;
+  font-family: Nunito Sans;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: black;
+  border: 1px solid black;
+}
+.popup_terms_condition {
+  display: flex;
+  align-items: center;
+  //   padding: 0.625rem 1.6875rem;
+  background: #fbf9d3;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  div {
+    padding: 0.5%;
+  }
+  .div_left {
+    border-left: 1px solid black;
+    width: 90%;
+  }
+}
+
+.popup_lot_details {
+  display: flex;
+  border: 1px solid white;
+  padding: 0 !important;
+  flex-wrap: wrap;
+
+  tr {
+    font-family: Nunito Sans;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+  }
+  .Right_div {
+    padding: 0 !important;
+    border-right: 1px solid white;
+  }
+  .image_div {
+    border-bottom: 1px solid white;
+    padding: 1%;
+    background-color: rgba(0, 2, 76, 1);
+  }
+  .lot_status {
+    font-family: Nunito Sans;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    padding: 6%;
+  }
+}
+
+.popup_lot_details_bottom {
+  font-family: Nunito Sans;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-align: center;
+  color: white;
+}
+
+.react-resizable {
+  position: relative;
+  background-clip: padding-box;
+}
+
+.react-resizable-handle {
+  position: absolute;
+  right: -5px;
+  bottom: 0;
+  z-index: 1;
+  width: 10px;
+  height: 100%;
+  cursor: col-resize;
+}
+
+.popup_LotsDetails_STA {
+  font-family: Nunito Sans;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: rgb(89, 108, 70);
+  span {
+    font-family: Nunito Sans;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: black;
+
+    &::before {
+      content: " ";
+    }
+  }
+}
+
+.Request_btn {
+  background-color: green;
+  color: white !important;
+}
+
+@media (max-width: 567px) {
+  .popup_LotsDetails_STA {
+    font-size: 18px;
+    line-height: 10px;
+    span {
+      font-size: 18px;
+      line-height: 30px;
+
+      &::before {
+        content: " ";
+      }
+    }
+  }
+
+  .Request_btn {
+    background-color: green;
+    color: white !important;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .popup_lot_details_bottom{
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .popup_lot_details {
+    display: flex;
+    border: 1px solid white;
+    padding: 0 !important;
+  
+    tr {
+      font-size: 18px;
+      td{
+        padding: 0.5rem;
+        border-right: 1px solid white;
+      }
+    }
+    .Right_div {
+      padding: 0 !important;
+      border-right: none;
+    }
+    .image_div {
+      border-bottom: 1px solid white;
+      padding: 1%;
+      background-color: rgba(0, 2, 76, 1);
+    }
+    .lot_status {
+      font-size: 25px;
+    }
+  }
+}

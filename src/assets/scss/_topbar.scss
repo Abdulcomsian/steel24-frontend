@@ -1,0 +1,117 @@
+.navbar {
+  // margin-bottom: 20px;
+  min-height: 53px;
+  padding-bottom: 0;
+  padding-top: 0;
+  z-index: 4;
+  // height: 7vh;
+  box-shadow: 0px 4px 8px 0px rgba(100, 100, 100, 0.09);
+
+  height: 9vh;
+}
+
+.top-navigation {
+  background: #fff !important;
+  border-bottom: 1px solid #efefef;
+}
+
+.main-panel > .navbar {
+  margin-bottom: 0;
+}
+.topbar-wrapper {
+  width: 100%;
+  // float: right;
+}
+
+.topbar_text {
+  display: flex;
+  align-items: center;
+  font-family: Nunito Sans !important;
+  font-size: 25px !important;
+  font-weight: 700 !important;
+  line-height: 24px !important;
+  letter-spacing: 0px !important;
+  text-align: center;
+  // color: #000000 !important;
+}
+
+.topbar_text:hover {
+  background-color: rgb(37, 142, 199) !important;
+  color: black !important;
+}
+
+.top_logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.top_logo p {
+  color: #000;
+  font-size: 1.25rem;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.menubar_list li {
+  margin: 0;
+  padding: 0.714em 0.857em;
+  color: #333;
+  background-color: #f4f4f4;
+  font-weight: 700;
+  border: 0;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: rgb(239, 239, 239);
+  color: #000;
+}
+
+.dropdown ul {
+  background-color: rgb(239, 239, 239);
+}
+
+.dropdown_menu {
+  display: flex;
+  align-items: center;
+  font-family: Nunito Sans !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 24px !important;
+  letter-spacing: 0px !important;
+  text-align: center;
+}
+.dropdown_menu:hover {
+  background-color: white;
+}
+.topnav_bar {
+  .navbar {
+    flex-wrap: nowrap;
+    justify-content: space-between ;
+  }
+  .div-left {
+    // width: 80%;
+    display: flex;
+    align-items: center;
+  }
+  .div-right {
+    display: flex;
+    align-items: center;
+    // width: 20%;
+    color: #efefef;
+    font-family: Nunito Sans !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    line-height: 24px !important;
+    letter-spacing: 0px !important;
+    text-align: center;
+    // margin-right: 5%;
+    // display: none;
+    a {
+      // color: #efefef;
+      color: #000;
+    }
+  }
+}
